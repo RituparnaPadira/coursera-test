@@ -43,7 +43,7 @@ body{
    text-align:center;
 }
 
-@media (min-width:992px)
+@media(min-width:992px)
 {
   .lg_col_4{
     width:31%;
@@ -58,7 +58,7 @@ body{
    width:100%;
    }
 }
-@media (max-width:767px) 
+@media(max-width:767px) 
 {
   .sm_col_12{
     width:100%;
