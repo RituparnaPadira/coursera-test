@@ -39,6 +39,9 @@ background-color:white;
   border:0px white solid;
    text-align:justify;
 }
+body{
+   text-align:center;
+}
 
 @media(min-width:992px)
 {
