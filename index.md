@@ -5,7 +5,7 @@
 	<meta name="viewport" ="width=device-width,initial-scale=1"> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
          <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
-         <link href="style.css" type="text/css" rel="stylesheet">
+         <link href="mystyle.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="C:/Users/RITUPARNA/Desktop/web development/jquery.js"></script>
  	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 
