@@ -9,9 +9,6 @@
  	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 
 </head>
-<style>
-
-</style>
 
 <body>
 	<header>
