@@ -1,66 +1,9 @@
-
-h1{
-  text-align:center;
-  font-family:helvetica;
-  }
-div{
-  background:#999999;
-  box-sizing:border-box;
-  padding:5px 2px 2px 2px;
-  border:1px black solid;
-   float:left;
-   margin:5px;
+.bgdark{
+background-color:black;
 }
-#container{
-background-color:white;
- font-size:20px;
+.colwh{
+color:white !important;
 }
-#chicken{
- background-color:brown;
- color:white;
-  font-size:1.25em;
-  float:right;
+.marg{
+margin-bottom:25px;
 }
-#burger{
- background-color:red;
-  color:white;
-  font-size:1.25em;
-    float:right;
-}
-#sushi{
- background-color:green;
-   color:white;
-  font-size:1.25em;
-  float:right;
-}
-.dummy{
-  border:0px white solid;
-   text-align:justify;
-}
-body{
-   text-align:center;
-}
-
-@media (min-width:992px)
-{
-  .lg_col_4{
-    width:31%;
-    }
-}
-@media (min-width:768px) and (max-width:991px)
-{
-  .m_col_6{
-    width:45%;
-    }
-   .m_col_12{
-   width:100%;
-   }
-}
-@media (max-width:767px) 
-{
-  .sm_col_12{
-    width:100%;
-    }
-}
-
-
