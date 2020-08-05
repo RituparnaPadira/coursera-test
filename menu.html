@@ -1,0 +1,71 @@
+<html>
+	<title>Ritu's Restaurant</title>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="mystyle.css"></link>
+	<link rel="stylesheet">
+	<script type="text/javascript" src="menu.js"></script>
+	<body>
+		<div id="header" class="container-fluid">
+			<span class="hidden-md hidden-sm hidden-xs"><img class="logo" src="images/icon.png"></span>
+			<span class="hidden-lg hidden-sm hidden-xs"><img class="logo" src="images/icon-md.png"></span>
+			<span class="hidden-lg hidden-md hidden-xs"><img class="logo" src="images/icon-sm.png"></span>
+			<span class="hidden-lg hidden-md hidden-sm"><img class="logo" src="images/icon-xs.png"></span>
+			<span class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center" id="resName">Delicious Foodz</span>
+			<span id="symbols">
+				<a class="glyphicon glyphicon-info-sign hidden-xs" href="#"><br>about</a>
+				<a class="glyphicon glyphicon-phone hidden-xs" href="#"><br>contact</a>
+				<a class="glyphicon glyphicon-cutlery hidden-xs" id="focus" href="menu.html"><br>menu</a>
+				<a class="glyphicon glyphicon-home hidden-xs" href="restaurant.html"><br>home</a>
+			</span>
+			<div class="hidden-sm hidden-md hidden-lg">
+			<div>
+				<button id="togg" onclick=btn()>
+					<span>open</span>
+				</button>
+				<button id="toggl" onclick=btn_tog()>
+					<span>close</span>
+				</button>
+			</div><br><br>
+			<br>
+			<div id="sm-sym">
+				<div><a class="glyphicon glyphicon-home" href="restaurant.html"> home</a></div>
+				<div><a class="glyphicon glyphicon-cutlery" href="menu.html"> menu</a></div>
+				<div><a class="glyphicon glyphicon-phone" href="#"> contact</a></div>
+				<div><a class="glyphicon glyphicon-info-sign" href="#"> about</a></div>
+			</div>
+		</div>
+		</div>
+		<br><br>
+		<div id="menu-main">
+			<h2 class="menu-head">Menu</h2>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images/menu/B/B.jpg" alt="BREAKFAST" class="menu-pic" onclick=items(1600)><div class="menu-cat container-fluid">BREAKFAST</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\C\C.jpg" alt="CHICKEN" class="menu-pic" onclick=items(1801)><div class="menu-cat container-fluid">CHICKEN</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\SO\SO.jpg" alt="SNACKS" class="menu-pic" onclick=items(402)><div class="menu-cat container-fluid">SNACKS</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\CM\CM.jpg" alt="MUSHROOM" class="menu-pic" onclick=items(403)><div class="menu-cat container-fluid">MUSHROOM</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\CSR\CSR.jpg" alt="CHICKEN SUSHI" class="menu-pic" onclick=items(404)><div class="menu-cat container-fluid">CHICKEN SUSHI</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\D\D.jpg" alt="DINNER" class="menu-pic" onclick=items(1605)><div class="menu-cat container-fluid">DINNER</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\SO\RC.jpg" alt="RICE" class="menu-pic" onclick=items(206)><div class="menu-cat container-fluid">RICE</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\DK\DK.jpg" alt="DUCK" class="menu-pic" onclick=items(307)><div class="menu-cat container-fluid">DUCK</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\DS\DS.jpg" alt="PASTRY" class="menu-pic" onclick=items(208)><div class="menu-cat container-fluid">PASTRY</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\F\F.jpg" alt="MIXED VEG" class="menu-pic" onclick=items(1209)><div class="menu-cat container-fluid">MIXED VEG</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\FR\FR.jpg" alt="BIRYANI" class="menu-pic" onclick=items(410)><div class="menu-cat container-fluid">BIRYANI</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\L\L.jpg" alt="LUNCH" class="menu-pic" onclick=items(2611)><div class="menu-cat container-fluid">LUNCH</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\NL\NL.jpg" alt="NOODLES" class="menu-pic" onclick=items(712)><div class="menu-cat container-fluid">NOODLES</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\PF\PF.jpg" alt="PASTA NOODLES" class="menu-pic" onclick=items(413)><div class="menu-cat container-fluid">PASTA NOODLES</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\SR\SR.jpg" alt="SUSHI" class="menu-pic" onclick=items(2014)><div class="menu-cat container-fluid">SUSHI</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\A\A.jpg" alt="SOUP" class="menu-pic" onclick=items(1115)><div class="menu-cat container-fluid">SOUP</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\SS\SS.jpg" alt="DESSERT" class="menu-pic" onclick=items(1416)><div class="menu-cat container-fluid">DESSERT</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\T\T.jpg" alt="RICE CONE" class="menu-pic" onclick=items(417)><div class="menu-cat container-fluid">RICE CONE</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\VG\VG.jpg" alt="PURE VEG" class="menu-pic" onclick=items(1818)><div class="menu-cat container-fluid">PURE VEG</div></a>
+		</div>
+		<br><br><br><br>
+		<div id="footer" class="container-fluid">
+			<span class="col-lg-4 col-md-4 col-sm-4 col-xs-12">Address:<br>Sector 12/F, Near Mini St.Xavier's, Bokaro Steel City, Jharkhand<br>Email:<br>rituparnapadira71@gmail.com<br><br><br><br></span>
+			<span class="col-lg-4 col-md-4 col-sm-4 col-xs-12">Timings:<br><br>7:30 am - 11:45 am<br>12:15 pm - 3:30 pm<br>7:00 pm - 9:30 pm<br><br><br><br></span>
+			<span class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><em>"Wow! it was a nice experience. Will miss the delicious food."</em><br><span class="right-float">- Abcd Kumar</span><br><br><em>"The best restaurant I have ever visited. Surely will come again."</em><br><span class="right-float">- Efgh Kumari</span></span>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,60 @@
+<html>
+	<title>Ritu's Restaurant</title>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel="stylesheet"></link>
+	<script type="text/javascript" src="menu.js"></script>
+	<body>
+		<div id="header" class="container-fluid">
+			<span class="hidden-md hidden-sm hidden-xs"><img class="logo" src="images/icon.png"></span>
+			<span class="hidden-lg hidden-sm hidden-xs"><img class="logo" src="images/icon-md.png"></span>
+			<span class="hidden-lg hidden-md hidden-xs"><img class="logo" src="images/icon-sm.png"></span>
+			<span class="hidden-lg hidden-md hidden-sm"><img class="logo" src="images/icon-xs.png"></span>
+			<span class="col-lg-6 col-md-6 col-sm-6 col-xs-8 text-center" id="resName">Delicious Foodz</span>
+			<span id="symbols">
+				<a class="glyphicon glyphicon-info-sign hidden-xs" href="#"><br>about</a>
+				<a class="glyphicon glyphicon-phone hidden-xs" href="#"><br>contact</a>
+				<a class="glyphicon glyphicon-cutlery hidden-xs" href="menu.html"><br>menu</a>
+				<a class="glyphicon glyphicon-home hidden-xs" href="restaurant.html"><br>home</a>
+			</span>
+			<div class="hidden-sm hidden-md hidden-lg">
+			<div>
+				<button id="togg" onclick=btn()>
+					<span>open</span>
+				</button>
+				<button id="toggl" onclick=btn_tog()>
+					<span>close</span>
+				</button>
+			</div><br><br>
+			<br>
+			<div id="sm-sym">
+				<div><a class="glyphicon glyphicon-home" href="restaurant.html"> home</a></div>
+				<div><a class="glyphicon glyphicon-cutlery" href="menu.html"> menu</a></div>
+				<div><a class="glyphicon glyphicon-phone" href="#"> contact</a></div>
+				<div><a class="glyphicon glyphicon-info-sign" href="#"> about</a></div>
+			</div>
+		</div>
+		</div>
+		<br><br>
+		<div>
+			<div id="heading">Today's specials</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images\menu\SP\SP1.jpg"><div class="price">Rs 49</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>Veg cutlet</strong><br>Cutlet loaded with veggies and onion + peanut sause<br><br><button class="order-btn">Order Now</button></div></div>
+			
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images\menu\SP\SP2.jpg"><div class="price">Rs 210</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>Naan Maggie Combo</strong><br>Naan(4pcs) + Maggie + Veggies <br><br><button class="order-btn">Order Now</button></div></div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images\menu\SP\SP3.jpg"><div class="price">Rs 290</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>Pakora Maggie Combo</strong><br>Broklie pakora(5pcs) + Maggie + Vara(7pcs)<br><br><button class="order-btn">Order Now</button></div></div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images\menu\SP\SP4.jpg"><div class="price">Rs 529</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>Chicken  Bumper Combo</strong><br>Chicken chilli(half plate) + chicken pakora(2 pcs) + Maggie + Veggies<br><br><button class="order-btn">Order Now</button></div></div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images\menu\SP\SP7.jpg"><div class="price">Rs 499</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>Chicken Combo</strong><br>Chicken chilli (half plate) + Maggie + Veggies<br><br><button class="order-btn">Order Now</button></div></div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images\menu\SP\SP5.jpg"><div class="price">Rs 220</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>Paneer Veg Combo</strong><br>Paneer chilli loaded with veggies (capsicum, tomato, broklie, etc) + Maggie<br><br><button class="order-btn">Order Now</button></div></div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images\menu\SP\SP6.jpg"><div class="price">Rs 269</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>Fish Combo</strong><br>Fish Pakora (3 pcs) + Maggie + Veggies<br><br><button class="order-btn">Order Now</button></div></div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images\menu\SP\SP8.jpg"><div class="price">Rs 49</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>Complete Non-veg Combo</strong><br>Chicken Chilli (5 pcs) + Fish Kalia (2 pcs) + Maggie<br><br><button class="order-btn">Order Now</button></div></div>
+		</div>
+		<br><br>
+		<div id="footer" class="container-fluid">
+			<span class="col-lg-4 col-md-4 col-sm-4 col-xs-12">Address:<br>Sector 12/F, Near Mini St.Xavier's, Bokaro Steel City, Jharkhand<br>Email:<br>rituparnapadira71@gmail.com<br><br><br><br></span>
+			<span class="col-lg-4 col-md-4 col-sm-4 col-xs-12">Timings:<br><br>7:30 am - 11:45 am<br>12:15 pm - 3:30 pm<br>7:00 pm - 9:30 pm<br><br><br><br></span>
+			<span class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><em>"Wow! it was a nice experience. Will miss the delicious food."</em><br><span class="right-float">- Abcd Kumar</span><br><br><em>"The best restaurant I have ever visited. Surely will come again."</em><br><span class="right-float">- Efgh Kumari</span></span>
+		</div>
+	</body>
+</html>
