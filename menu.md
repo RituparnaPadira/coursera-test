@@ -4,7 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="mystyle.css"></link>
-	<link rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+>
 	<script type="text/javascript" src="menu.js"></script>
 	<body>
 		<div id="header" class="container-fluid">
@@ -40,10 +41,10 @@
 		<br><br>
 		<div id="menu-main">
 			<h2 class="menu-head">Menu</h2>
-			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images/menu/B/B.jpg" alt="BREAKFAST" class="menu-pic" onclick=items(1600)><div class="menu-cat container-fluid">BREAKFAST</div></a>
-			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\C\C.jpg" alt="CHICKEN" class="menu-pic" onclick=items(1801)><div class="menu-cat container-fluid">CHICKEN</div></a>
-			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\SO\SO.jpg" alt="SNACKS" class="menu-pic" onclick=items(402)><div class="menu-cat container-fluid">SNACKS</div></a>
-			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\CM\CM.jpg" alt="MUSHROOM" class="menu-pic" onclick=items(403)><div class="menu-cat container-fluid">MUSHROOM</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="module5_solution/images/menu/B/B.jpg" alt="BREAKFAST" class="menu-pic" onclick=items(1600)><div class="menu-cat container-fluid">BREAKFAST</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="module5_solution\images\menu\C\C.jpg" alt="CHICKEN" class="menu-pic" onclick=items(1801)><div class="menu-cat container-fluid">CHICKEN</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="module5_solution\images\menu\SO\SO.jpg" alt="SNACKS" class="menu-pic" onclick=items(402)><div class="menu-cat container-fluid">SNACKS</div></a>
+			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="module5_solution\images\menu\CM\CM.jpg" alt="MUSHROOM" class="menu-pic" onclick=items(403)><div class="menu-cat container-fluid">MUSHROOM</div></a>
 			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\CSR\CSR.jpg" alt="CHICKEN SUSHI" class="menu-pic" onclick=items(404)><div class="menu-cat container-fluid">CHICKEN SUSHI</div></a>
 			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\D\D.jpg" alt="DINNER" class="menu-pic" onclick=items(1605)><div class="menu-cat container-fluid">DINNER</div></a>
 			<a href="#" class="col-sm-6 col-md-4 col-lg-3 text-center"><img src="images\menu\SO\RC.jpg" alt="RICE" class="menu-pic" onclick=items(206)><div class="menu-cat container-fluid">RICE</div></a>
