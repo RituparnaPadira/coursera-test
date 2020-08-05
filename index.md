@@ -21,10 +21,10 @@
 			</span>
 			<div class="hidden-sm hidden-md hidden-lg">
 			<div>
-				<button id="togg" onclick=btn()>
+				<button type="button" id="togg" onclick=btn()>
 					<span>Open</span>
 				</button>
-				<button id="toggl" onclick=btn_tog()>
+				<button type="button" id="toggl" onclick=btn_tog()>
 					<span>close</span>
 				</button>
 			</div><br><br>
@@ -57,8 +57,5 @@
 			<span class="col-lg-4 col-md-4 col-sm-4 col-xs-12">Timings:<br><br>7:30 am - 11:45 am<br>12:15 pm - 3:30 pm<br>7:00 pm - 9:30 pm<br><br><br><br></span>
 			<span class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><em>"Wow! it was a nice experience. Will miss the delicious food."</em><br><span class="right-float">- Abcd Kumar</span><br><br><em>"The best restaurant I have ever visited. Surely will come again."</em><br><span class="right-float">- Efgh Kumari</span></span>
 		</div>
-
-		<script type="text/javascript" src="C:\Users\RITUPARNA\Desktop\web development\jquery.js"></script>
-		<script type="text/javascript" src="C:\Users\RITUPARNA\Desktop\web development\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
 	</body>
 </html>
