@@ -28,7 +28,7 @@ function items(it){
 	for(i=0;i<l;i++)
 	{
 		var j=i+1;
-		content+='<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="images/menu/'+b[a].pic+j+'.jpg"><div class="price">Rs '+b[a].price[i]+'</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>'+b[a].name[i]+'</strong><br>'+b[a].desc[i]+'<br><br><button class="order-btn">Order Now</button></div></div>';
+		content+='<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sp"><div class="hidden-lg hidden-md hidden-sm col-xs-2"></div><div class="container-pic col-lg-5 col-md-5 col-sm-5 col-xs-8"><img class="sp-pic" src="module5_solution/images/menu/'+b[a].pic+j+'.jpg"><div class="price">Rs '+b[a].price[i]+'</div></div><div class="hidden-lg hidden-md hidden-sm col-xs-space rtfl"></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 rtfl"><strong>'+b[a].name[i]+'</strong><br>'+b[a].desc[i]+'<br><br><button class="order-btn">Order Now</button></div></div>';
 	}
 	console.log(l);
 	console.log(i);
